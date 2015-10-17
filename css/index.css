@@ -258,10 +258,142 @@ body{
 	width: 33.33333%;
 	padding: 20px 30px;
 	float: left;
+	margin-top: 5%;
 }
 .bdb-plan-card{
 	text-align: center;
 
+}
+.bdb-plan-img img{
+	width: 100%;
+}
+.bdb-plan-card-name{
+	margin: 8% 0;
+	color: #444;
+	font-size: 23px;
+	font-weight: 100;
+}
+.bdb-plan-card-price{
+	margin-bottom: 8%;
+}
+.bdb-plan-card-price em{
+	color: #ff4200;
+	font-size: 35px;
+	font-style: normal;
+}
+.bdb-plan-card-price span{
+	color: #999;
+	font-size: 18px;
+}
+.bdb-plan-link{
+	display: block;
+	border:2px #b3977f solid;
+	color: #b3977f;
+	font-size: 18px;
+	width: 150px;
+	margin: auto;
+	padding: 15px 0 10px 0;
+	text-decoration: none;
+}
+
+.bdb-qr{
+	box-sizing: border-box;
+	width: 50%;
+	padding: 100px 100px 70px 100px;
+	float: left;
+}
+.bdb-qr-img{
+	width: 300px;
+	margin: auto;
+}
+.bdb-qr-img img{
+	width: 100%;
+}
+.bdb-qr-name{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.bdb-qr-name p{
+	line-height: 1.5;
+}
+
+
+
+
+
+@media screen and (max-width:1147px){
+	.bdb-sp-module{
+		width: 50%;
+		padding: 40px;
+
+	}
+	.bdb-auto{
+		width: 90%;
+	}
+}
+@media screen and (max-width:960px){
+	.bdb-logo{
+		width: 180px;
+	}
+	.bdb-title{
+		font-size: 50px;
+		padding-top: 1.5rem;
+	}
+	.bdb-subtitle{
+		font-size: 3rem;
+	}
+	.bdb-qr{
+		width: 100%;
+		padding: 50px 0;
+	}
+	.bdb-auto{
+		width: 95%;
+	}
+}
+@media screen and (max-width:640px){
+	.bdb-sp-module{
+		width: 100%;
+		padding:  5px 10px;
+		float: none;
+	}
+	.bdb-service-module{
+		width: 50%;
+
+	}
+	.bdb-plan-module{
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+	.bdb-plan-module:first-child{
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width:420px) {
+	.bdb-logo{
+		width: 150px;
+	}
+	.bdb-title{
+		font-size: 40px;
+		padding-top: 2rem;
+	}
+	.bdb-subtitle{
+		font-size: 2rem;
+	}
+	.bdb-auto{
+		width: auto;
+	}
+
+
+
+	.bdb-qr{
+		width: 100%;
+		padding: 50px 0;
+		float: none;
+	}
 }
 
 
