@@ -1,7 +1,282 @@
-@charset "UTF-8";
-/**
- *
- * @authors Your Name (you@example.org)
- * @date    2015-10-17 16:16:31
- * @version $Id$
- */
+@charset "utf-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+a {
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    /* height: 100px; */
+    /* overflow: hidden; */
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: 700;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,select {
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: none;
+}
+
+abbr[title],dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+html{
+	font-size: 10px;
+}
+body{
+	font-size: 1.4rem;
+}
+
+
+.bdb-header{
+	background: url(../img/bg_2.png) no-repeat center;
+	background-size: cover;
+}
+.bdb-main{
+
+}
+.bdb-service{
+	background-color:#fcfbfa;
+}
+.bdb-sp{
+	background-color: #e3dee3;
+}
+.bdb-plan{
+	background-color: #dfe3e4;
+}
+.bdb-footer{
+	background-color: #222222;
+}
+.bdb-auto{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 5%;
+}
+
+
+.bdb-logo{
+	width: 200px;
+	margin:0 auto 3%;
+	padding-top: 5%;
+}
+.bdb-logo img{
+	width: 100%;
+}
+.bdb-title{
+	color: #e4bd9c;
+	font-size: 8rem;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.bdb-title span{
+	text-align: center;
+}
+.bdb-title span:first-child{
+	margin-right: 2rem;
+}
+.bdb-subtitle{
+	color: #fff;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 100;
+	padding-bottom: 7%;
+}
+
+
+.bdb-modile-header{
+	color: #444444;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+	padding: 5% 0 2% 0;
+}
+.bdb-modile-header span{
+	display: inline-block;
+	font-size: 45px;
+	margin-right: 10px;
+	border-bottom: 4px #444444 solid;
+}
+
+
+.bdb-service-module{
+	box-sizing: border-box;
+	width: 20%;
+	float: left;
+
+}
+.bdb-service-logo{
+	width: 40px;
+	height: 40px;
+	margin:30px auto 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.bdb-icon-1{
+	background-image: url(../img/icon_1.png);
+}
+.bdb-icon-2{
+	background-image: url(../img/icon_2.png);
+}
+.bdb-icon-3{
+	background-image: url(../img/icon_3.png);
+}
+.bdb-icon-4{
+	background-image: url(../img/icon_4.png);
+}
+.bdb-icon-5{
+	background-image: url(../img/icon_5.png);
+}
+.bdb-icon-6{
+	background-image: url(../img/icon_6.png);
+}
+.bdb-icon-7{
+	background-image: url(../img/icon_7.png);
+}
+.bdb-icon-8{
+	background-image: url(../img/icon_8.png);
+}
+.bdb-icon-9{
+	background-image: url(../img/icon_9.png);
+}
+.bdb-icon-10{
+	background-image: url(../img/icon_10.png);
+}
+.bdb-service-name{
+	color: #444444;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+	padding: 10px 0;
+}
+.bdb-service-desc{
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+}
+
+.bdb-sp-module{
+	box-sizing: border-box;
+	width: 33.33333%;
+	padding: 20px 30px;
+	float: left;
+}
+.bdb-sp-card{
+	text-align: center;
+	padding: 40px 0;
+}
+.bdb-sp-card-name{
+	font-size: 28px;
+	font-weight: 100;
+	color: #fff;
+	margin-bottom: 18px;
+}
+.bdb-sp-card-engname{
+	color: #888;
+	color: rgba(176, 176, 177, 0.8);
+	font-size: 16px;
+}
+.bdb-sp-back-1{
+	background-color: #74786f;
+}
+.bdb-sp-back-2{
+	background-color: #9c8461;
+}
+.bdb-sp-back-3{
+	background-color: #5e7275;
+}
+.bdb-sp-back-4{
+	background-color: #6f5a71;
+}
+.bdb-sp-back-5{
+	background-color: #616163;
+}
+.bdb-sp-back-6{
+	background-color: #9d707d;
+}
+
+
+.bdb-plan-module{
+	box-sizing: border-box;
+	width: 33.33333%;
+	padding: 20px 30px;
+	float: left;
+}
+.bdb-plan-card{
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
