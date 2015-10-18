@@ -117,27 +117,16 @@ body{
 	width: 100%;
 }
 .bdb-title{
-	color: #e4bd9c;
-	font-size: 8rem;
-	font-weight: 100;
-	font-family: 'youzhili' sans-serif;
+
 	text-align: center;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
+	width: 60%;
+	margin: auto;
 }
-.bdb-title span{
-	text-align: center;
+.bdb-title img{
+	width: 100%;
 }
-.bdb-title span:first-child{
-	margin-right: 2rem;
-}
-.bdb-subtitle{
-	color: #fff;
-	text-align: center;
-	font-family: 'youzhili' sans-serif;
-	font-size: 3rem;
-	font-weight: 100;
-	padding-bottom: 7%;
-}
+
 
 
 .bdb-modile-header{
@@ -325,13 +314,14 @@ body{
 
 @font-face{
 	font-family: 'youzhili';
-	src:url(../css/fonts/youzhili.ttf);
+	src:url(./fonts/youzhili.ttf);
+	src:url(./fonts/youzhili.ttf#font-spider) format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'trajan';
-	src:url(../css/fonts/trajan.otf);
+	src:url(./fonts/trajan.otf);
 	font-weight: normal;
 	font-style: normal;
 }
@@ -351,13 +341,7 @@ body{
 	.bdb-logo{
 		width: 180px;
 	}
-	.bdb-title{
-		font-size: 50px;
-		padding-top: 1.5rem;
-	}
-	.bdb-subtitle{
-		font-size: 3rem;
-	}
+
 	.bdb-qr{
 		width: 100%;
 		padding: 50px 0;
@@ -391,11 +375,7 @@ body{
 		width: 150px;
 	}
 	.bdb-title{
-		font-size: 33px;
-		padding-top: 2rem;
-	}
-	.bdb-subtitle{
-		font-size: 2rem;
+		width: 80%;
 	}
 	.bdb-auto{
 		width: auto;
