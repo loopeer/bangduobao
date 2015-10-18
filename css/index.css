@@ -90,6 +90,7 @@ body{
 }
 .bdb-service{
 	background-color:#fcfbfa;
+	padding: 0 0 3% 0;
 }
 .bdb-sp{
 	background-color: #e3dee3;
@@ -111,7 +112,7 @@ body{
 .bdb-logo{
 	width: 200px;
 	margin:0 auto 3%;
-	padding-top: 5%;
+	padding-top: 7%;
 }
 .bdb-logo img{
 	width: 100%;
@@ -119,7 +120,7 @@ body{
 .bdb-title{
 
 	text-align: center;
-	padding-bottom: 2rem;
+	padding-bottom: 10%;
 	width: 60%;
 	margin: auto;
 }
@@ -311,14 +312,6 @@ body{
 
 
 
-
-@font-face{
-	font-family: 'youzhili';
-	src:url(./fonts/youzhili.ttf);
-	src:url(./fonts/youzhili.ttf#font-spider) format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
 @font-face{
 	font-family: 'trajan';
 	src:url(./fonts/trajan.otf);
