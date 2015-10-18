@@ -233,7 +233,7 @@ body{
 .bdb-sp-card-engname{
 	color: #888;
 	color: rgba(176, 176, 177, 0.8);
-	/*font-family: 'trajan' sans-serif;*/
+	font-family: 'trajan' sans-serif;
 	font-size: 14px;
 }
 .bdb-sp-back-1{
@@ -331,12 +331,12 @@ body{
 	font-weight: normal;
 	font-style: normal;
 }
-/*@font-face{
+@font-face{
 	font-family: 'trajan';
 	src:url(../css/fonts/trajan.otf);
 	font-weight: normal;
 	font-style: normal;
-}*/
+}
 
 
 @media screen and (max-width:1147px){
