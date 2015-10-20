@@ -78,6 +78,7 @@ html{
 }
 body{
 	font-size: 1.4rem;
+	font-family: 'Arial' sans-serif;
 }
 
 
@@ -102,7 +103,7 @@ body{
 	background-color: #222222;
 }
 .bdb-auto{
-	width: 85%;
+	width: 1200px;
 	margin: auto;
 	overflow: hidden;
 	padding-bottom: 5%;
@@ -121,7 +122,7 @@ body{
 
 	text-align: center;
 	padding-bottom: 10%;
-	width: 60%;
+	width: 70%;
 	margin: auto;
 }
 .bdb-title img{
@@ -132,14 +133,14 @@ body{
 
 .bdb-modile-header{
 	color: #444444;
-	font-size: 30px;
+	font-size: 36px;
 	font-weight: 100;
 	text-align: center;
 	padding: 5% 0 2% 0;
 }
 .bdb-modile-header span{
 	display: inline-block;
-	font-size: 45px;
+	font-size: 60px;
 	margin-right: 10px;
 	border-bottom: 4px #444444 solid;
 }
@@ -152,8 +153,8 @@ body{
 
 }
 .bdb-service-logo{
-	width: 40px;
-	height: 40px;
+	width: 54px;
+	height: 54px;
 	margin:30px auto 0px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -191,26 +192,27 @@ body{
 }
 .bdb-service-name{
 	color: #444444;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 100;
 	text-align: center;
 	padding: 10px 0;
 }
 .bdb-service-desc{
 	color: #999999;
-	font-size: 12px;
+	font-size: 16px;
 	text-align: center;
 }
 
 .bdb-sp-module{
 	box-sizing: border-box;
-	width: 33.33333%;
-	padding: 20px 30px;
-	float: left;
+   width: 397px;
+   padding: 20px 30px;
+   display: inline-block;
 }
 .bdb-sp-card{
 	text-align: center;
-	padding: 40px 0;
+	padding: 30px 0;
+
 }
 .bdb-sp-card-name{
 	font-size: 28px;
@@ -246,9 +248,9 @@ body{
 
 .bdb-plan-module{
 	box-sizing: border-box;
-	width: 33.33333%;
+	width: 397px;
 	padding: 20px 30px;
-	float: left;
+	display: inline-block;
 	margin-top: 5%;
 }
 .bdb-plan-card{
@@ -261,7 +263,7 @@ body{
 .bdb-plan-card-name{
 	margin: 8% 0;
 	color: #444;
-	font-size: 23px;
+	font-size: 22px;
 	font-weight: 100;
 }
 .bdb-plan-card-price{
@@ -269,7 +271,7 @@ body{
 }
 .bdb-plan-card-price em{
 	color: #ff4200;
-	font-size: 35px;
+	font-size: 40px;
 	font-style: normal;
 }
 .bdb-plan-card-price span{
@@ -283,7 +285,7 @@ body{
 	font-size: 18px;
 	width: 150px;
 	margin: auto;
-	padding: 15px 0 10px 0;
+	padding: 10px 0 10px 0;
 	text-decoration: none;
 }
 
@@ -320,14 +322,11 @@ body{
 }
 
 
-@media screen and (max-width:1147px){
-	.bdb-sp-module{
-		width: 50%;
-		padding: 40px;
+@media screen and (max-width:1200px){
 
-	}
 	.bdb-auto{
-		width: 90%;
+		width: 85%;
+		text-align: center;
 	}
 }
 @media screen and (max-width:960px){
@@ -341,12 +340,13 @@ body{
 	}
 	.bdb-auto{
 		width: 95%;
+		text-align: center;
 	}
 }
 @media screen and (max-width:640px){
 	.bdb-sp-module{
-		width: 100%;
-		padding:  5px 10px;
+		width: 397px;
+		padding:  5px 0px;
 		float: none;
 	}
 	.bdb-service-module{
@@ -354,9 +354,9 @@ body{
 
 	}
 	.bdb-plan-module{
-		width: 100%;
+		width: 397px;
 		padding: 0;
-		float: none;
+
 	}
 	.bdb-plan-module:first-child{
 		margin-top: 0;
@@ -364,6 +364,16 @@ body{
 }
 
 @media screen and (max-width:420px) {
+	.bdb-sp-module{
+		width: 320px;
+		padding:  5px 0px;
+
+	}
+	.bdb-plan-module{
+		width: 397px;
+		padding: 0;
+
+	}
 	.bdb-logo{
 		width: 150px;
 	}
@@ -372,6 +382,7 @@ body{
 	}
 	.bdb-auto{
 		width: auto;
+		text-align: center;
 	}
 	.bdb-qr{
 		width: 100%;
