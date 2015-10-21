@@ -402,6 +402,7 @@ background-image: url(../img/icon_10.png);}
 	}
 	.bdb-sp-card-name{
 		font-size: 18px;
+		margin-bottom: 10px;
 	}
 	.bdb-sp-card-engname{
 		font-size: 10px;
@@ -449,11 +450,12 @@ background-image: url(../img/icon_10.png);}
 		float: none;
 	}
 	.bdb-qr-img{
-		width: 120px;
+		width: 140px;
 	}
 	.bdb-qr-name{
-		font-size: 14px;
+		font-size: 18px;
 	}
+
 }
 
 
