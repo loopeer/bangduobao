@@ -78,7 +78,7 @@ html{
 }
 body{
 	font-size: 1.4rem;
-	font-family: 'Arial' sans-serif;
+	font-family: 'SimHei' 'Microsoft Yahei' 'Arial' sans-serif;
 }
 
 
@@ -380,6 +380,10 @@ background-image: url(../img/icon_10.png);}
 }
 
 @media screen and (max-width:420px) {
+	body{
+		font-size: 1.4rem;
+		font-family:  'Arial' sans-serif;
+	}
 	.bdb-modile-header{
 		font-size: 20px;
 	}
@@ -398,7 +402,7 @@ background-image: url(../img/icon_10.png);}
 		font-size: 14px;
 	}
 	.bdb-sp-card{
-		padding: 20px 0;
+		padding: 25px 0;
 	}
 	.bdb-sp-card-name{
 		font-size: 18px;
@@ -455,6 +459,7 @@ background-image: url(../img/icon_10.png);}
 	.bdb-qr-name{
 		font-size: 18px;
 	}
+
 
 }
 
