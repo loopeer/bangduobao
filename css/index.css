@@ -212,6 +212,7 @@ background-image: url(../img/icon_10.png);}
    width: 397px;
    padding: 20px 30px;
    display: inline-block;
+   margin-top: 0;
 }
 .bdb-sp-card{
 	text-align: center;
@@ -388,6 +389,7 @@ background-image: url(../img/icon_10.png);}
 	.bdb-service-logo{
 		width: 40px;
 		height: 40px;
+		margin: 20px auto 0px;
 	}
 	.bdb-service-name{
 		font-size: 18px;
@@ -395,31 +397,37 @@ background-image: url(../img/icon_10.png);}
 	.bdb-service-desc{
 		font-size: 14px;
 	}
+	.bdb-sp-card{
+		padding: 20px 0;
+	}
 	.bdb-sp-card-name{
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.bdb-sp-card-engname{
-		font-size: 14px;
+		font-size: 10px;
 	}
 	.bdb-sp-module{
 		width: 320px;
 		padding:  5px 0px;
-
+		margin-top: 10px;
 	}
 
 	.bdb-plan-module{
 		width: 320px;
 		padding: 0;
-
 	}
 	.bdb-plan-card-name{
 		font-size: 18px;
+		margin:4% 0;
 	}
 	.bdb-plan-card-price em{
 		font-size: 30px;
 	}
 	.bdb-plan-card-price span{
 		font-size: 14px;
+	}
+	.bdb-plan-card-price{
+		margin-bottom: 4%;
 	}
 	.bdb-plan-link{
 		font-size: 14px;
@@ -439,6 +447,12 @@ background-image: url(../img/icon_10.png);}
 		width: 100%;
 		padding: 50px 0;
 		float: none;
+	}
+	.bdb-qr-img{
+		width: 120px;
+	}
+	.bdb-qr-name{
+		font-size: 14px;
 	}
 }
 
