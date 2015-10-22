@@ -107,6 +107,7 @@ body{
 	margin: auto;
 	overflow: hidden;
 	padding-bottom: 5%;
+	font-size: 0;
 }
 
 
@@ -150,7 +151,7 @@ body{
 	box-sizing: border-box;
 	width: 20%;
 	display: inline-block;
-	margin: 0 -2px;
+
 
 }
 .bdb-service-logo{
