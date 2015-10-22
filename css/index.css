@@ -151,7 +151,8 @@ body{
 	box-sizing: border-box;
 	width: 20%;
 	display: inline-block;
-
+	height: 168px;
+	vertical-align: top;
 
 }
 .bdb-service-logo{
@@ -367,7 +368,7 @@ background-image: url(../img/icon_10.png);}
 		float: none;
 	}
 	.bdb-service-module{
-		width: 50%;
+		width: 49%;
 
 	}
 	.bdb-plan-module{
@@ -390,6 +391,9 @@ background-image: url(../img/icon_10.png);}
 	}
 	.bdb-modile-header span{
 		font-size: 24px;
+	}
+	.bdb-service-module{
+		height: 120px;
 	}
 	.bdb-service-logo{
 		width: 40px;
